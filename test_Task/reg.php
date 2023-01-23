@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if(isset($_SESSION['user']) && isset($_COOKIE[$_SESSION['user']['login']]))
+    if(isset($_SESSION['user']))
         header('Location: ../account_enter.php');
 ?>
 
