@@ -1,0 +1,5 @@
+RewriteEngine on
+<files data_accounts.json>
+order allow,deny
+deny from all
+</files>
